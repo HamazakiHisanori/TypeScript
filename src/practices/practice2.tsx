@@ -4,14 +4,14 @@ export const Practice2 = () => {
     return total;
   };
 
-  const onClickpractice1 = () => {
+  const onClickpractice2 = () => {
     console.log(getTotalFee(1000));
   };
 
   return (
     <div>
       <p>練習問題：返却値の型指定</p>
-      <button onClick={onClickpractice1}>練習問題2を実行</button>
+      <button onClick={onClickpractice2}>練習問題2を実行</button>
     </div>
   );
 };
